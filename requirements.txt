@@ -1,0 +1,21 @@
+# Core dependencies
+flask==3.0.0
+flask-cors==4.0.0
+rdkit==2023.9.1
+
+# Optional: For enhanced LLM integration
+# openai==1.3.0
+# google-generativeai==0.3.0
+
+# Scientific computing
+numpy==1.24.3
+pandas==2.0.3
+
+# Molecular descriptor calculations
+mordred==1.2.0
+
+# For 3D conformer generation
+py3Dmol==2.0.4
+
+# Logging and utilities
+python-dotenv==1.0.0
