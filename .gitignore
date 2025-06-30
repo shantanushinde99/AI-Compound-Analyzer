@@ -1,31 +1,25 @@
-# Dependency folders
-node_modules/
-.vite/
-
-# Build output
-dist/
-build/
-
 # Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# OS/Editor/IDE files
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-*.swp
-*.swo
-*.log
-
-# Env files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 .env
-.env.*.local
-
-# TypeScript cache
-*.tsbuildinfo
-
-# Test coverage
-coverage/
-
-# Misc
-*.zip
